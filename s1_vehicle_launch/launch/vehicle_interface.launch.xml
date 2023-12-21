@@ -2,7 +2,7 @@
 <launch>
   <arg name="vehicle_id" default="$(env VEHICLE_ID default)"/>
   <arg name="vehicle_cmd_timeout" default="0.2"/>
-  <arg name="vehicle_calibration_param_path" default="$(find-pkg-share logiee_s-tc_launch)/config/vehicle_calibration.param.yaml"/> 
+  <arg name="vehicle_calibration_param_path" default="$(find-pkg-share s1_vehicle_launch)/config/vehicle_calibration.param.yaml"/> 
 
   <!-- jw_interface_serial -->
   <include file="$(find-pkg-share jw_interface_serial)/launch/jw_interface.launch.xml">
